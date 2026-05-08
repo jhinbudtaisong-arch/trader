@@ -1,0 +1,121 @@
+PS C:\Users\jhinb\backtrader> & c:/Users/jhinb/backtrader/.venv/Scripts/python.exe c:/Users/jhinb/backtrader/test03d_50.py
+[*********************100%***********************]  1 of 1 completed
+Buy & Hold Return: 303.77%
+Starting Portfolio Value: 10000
+BUY | Price: 28550.62 | ATR: 659.05 | ATR_MULT: 5.0 | POC: 26942.23 | VAH: 27658.21 | VAL: 26226.26 | Profile: 2 | SL: 25255.35
+SELL | Price: 41582.97
+BUY | Price: 47200.68 | ATR: 1410.34 | ATR_MULT: 5.0 | POC: 42657.35 | VAH: 45269.22 | VAL: 41351.42 | Profile: 1 | SL: 40149.00
+SELL | Price: 63768.02
+BUY | Price: 66322.37 | ATR: 2725.17 | ATR_MULT: 5.0 | POC: 61672.15 | VAH: 64341.82 | VAL: 61672.15 | Profile: 4 | SL: 52696.54
+SELL | Price: 65940.74
+BUY | Price: 64849.20 | ATR: 2389.80 | ATR_MULT: 5.0 | POC: 57927.05 | VAH: 62978.65 | VAL: 55681.89 | Profile: 1 | SL: 52900.19
+SELL | Price: 60615.42
+BUY | Price: 63004.37 | ATR: 2296.13 | ATR_MULT: 5.0 | POC: 59572.42 | VAH: 60605.56 | VAL: 56472.99 | Profile: 1 | SL: 51523.70
+SELL | Price: 60775.49
+BUY | Price: 67109.50 | ATR: 2120.00 | ATR_MULT: 5.0 | POC: 63772.80 | VAH: 63772.80 | VAL: 60312.68 | Profile: 1 | SL: 56509.51
+FINAL OPEN POSITION | Close Price: 93429.20 | Bars Held: 77
+Final Portfolio Value: 16282.737907575476
+Strategy Return: 62.83%
+
+--- Trade Analysis ---
+AutoOrderedDict([('total', AutoOrderedDict([('total', 6), ('open', 1), ('closed', 5)])), ('streak', AutoOrderedDict([('won', AutoOrderedDict([('current', 0), ('longest', 2)])), ('lost', AutoOrderedDict([('current', 3), ('longest', 3)]))])), ('pnl', AutoOrderedDict([('gross', AutoOrderedDict([('total', 3685.3193778803857), ('average', 737.0638755760772)])), ('net', AutoOrderedDict([('total', 3616.66652397277), ('average', 723.333304794554)]))])), ('won', AutoOrderedDict([('total', 2), ('pnl', AutoOrderedDict([('total', 4414.3342606505485), ('average', 2207.1671303252742), ('max', 2272.5200311971676)]))])), ('lost', AutoOrderedDict([('total', 3), ('pnl', AutoOrderedDict([('total', -797.6677366777785), ('average', -265.8892455592595), ('max', -482.4409609282229)]))])), ('long', AutoOrderedDict([('total', 5), ('pnl', AutoOrderedDict([('total', 3616.66652397277), ('average', 723.333304794554), ('won', AutoOrderedDict([('total', 4414.3342606505485), ('average', 2207.1671303252742), ('max', 2272.5200311971676)])), ('lost', AutoOrderedDict([('total', -797.6677366777785), ('average', -265.8892455592595), ('max', -482.4409609282229)]))])), ('won', 2), ('lost', 3)])), ('short', AutoOrderedDict([('total', 0), ('pnl', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('won', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)])), ('lost', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)]))])), ('won', 0), ('lost', 0)])), ('len', AutoOrderedDict([('total', 223), ('average', 44.6), ('max', 95), ('min', 12), ('won', AutoOrderedDict([('total', 162), ('average', 81.0), ('max', 95), ('min', 67)])), ('lost', AutoOrderedDict([('total', 61), ('average', 20.333333333333332), ('max', 30), ('min', 12)])), ('long', AutoOrderedDict([('total', 223), ('average', 44.6), ('max', 95), ('min', 12), ('won', AutoOrderedDict([('total', 162), ('average', 81.0), ('max', 95), ('min', 67)])), ('lost', AutoOrderedDict([('total', 61), ('average', 20.333333333333332), ('max', 30), ('min', 12)]))])), ('short', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807), ('won', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)])), ('lost', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)]))]))]))])
+
+--- Drawdown ---
+AutoOrderedDict([('len', 14), ('drawdown', 7.345667164686246), ('moneydown', 1290.9010246877806), ('max', AutoOrderedDict([('len', 242), ('drawdown', 13.392897510440088), ('moneydown', 2093.986796424153)]))])
+
+--- Sharpe Ratio ---
+OrderedDict([('sharperatio', 7.278774745217354)])
+
+--- Returns ---
+OrderedDict([('rtot', 0.4875204295813264), ('ravg', 0.000695464236207313), ('rnorm', 0.19155239136819022), ('rnorm100', 19.15523913681902)])
+
+--- Simple Summary ---
+Total Closed Trades: 5
+Open Trades: 1
+Won Trades: 2
+Lost Trades: 3
+Win Rate: 40.00%
+Max Drawdown: 13.39%
+Buy & Hold Return: 303.77%
+Strategy Return: 62.83%
+PS C:\Users\jhinb\backtrader> & c:/Users/jhinb/backtrader/.venv/Scripts/python.exe c:/Users/jhinb/backtrader/test03d_40.py
+[*********************100%***********************]  1 of 1 completed
+Buy & Hold Return: 303.77%
+Starting Portfolio Value: 10000
+BUY | Price: 28550.62 | ATR: 659.05 | ATR_MULT: 5.0 | POC: 26942.23 | VAH: 27658.21 | VAL: 26226.26 | Profile: 2 | SL: 25255.35
+SELL | Price: 41582.97
+BUY | Price: 47200.68 | ATR: 1410.34 | ATR_MULT: 5.0 | POC: 42657.35 | VAH: 45269.22 | VAL: 41351.42 | Profile: 1 | SL: 40149.00
+SELL | Price: 63768.02
+BUY | Price: 66322.37 | ATR: 2725.17 | ATR_MULT: 5.0 | POC: 61672.15 | VAH: 64341.82 | VAL: 61672.15 | Profile: 4 | SL: 52696.54
+SELL | Price: 65940.74
+BUY | Price: 64849.20 | ATR: 2389.80 | ATR_MULT: 5.0 | POC: 57927.05 | VAH: 62978.65 | VAL: 55681.89 | Profile: 1 | SL: 52900.19
+SELL | Price: 60615.42
+BUY | Price: 63004.37 | ATR: 2296.13 | ATR_MULT: 5.0 | POC: 59572.42 | VAH: 60605.56 | VAL: 56472.99 | Profile: 1 | SL: 51523.70
+SELL | Price: 60775.49
+BUY | Price: 67109.50 | ATR: 2120.00 | ATR_MULT: 5.0 | POC: 63772.80 | VAH: 63772.80 | VAL: 60312.68 | Profile: 1 | SL: 56509.51
+FINAL OPEN POSITION | Close Price: 93429.20 | Bars Held: 77
+Final Portfolio Value: 14885.891571055676
+Strategy Return: 48.86%
+
+--- Trade Analysis ---
+AutoOrderedDict([('total', AutoOrderedDict([('total', 6), ('open', 1), ('closed', 5)])), ('streak', AutoOrderedDict([('won', AutoOrderedDict([('current', 0), ('longest', 2)])), ('lost', AutoOrderedDict([('current', 3), ('longest', 3)]))])), ('pnl', AutoOrderedDict([('gross', AutoOrderedDict([('total', 2922.3706026843365), ('average', 584.4741205368673)])), ('net', AutoOrderedDict([('total', 2869.990622318224), ('average', 573.9981244636448)]))])), ('won', AutoOrderedDict([('total', 2), ('pnl', AutoOrderedDict([('total', 3468.0109614055773), ('average', 1734.0054807027886), ('max', 1818.0160249577343)]))])), ('lost', AutoOrderedDict([('total', 3), ('pnl', AutoOrderedDict([('total', -598.0203390873535), ('average', -199.34011302911782), ('max', -360.8951124415379)]))])), ('long', AutoOrderedDict([('total', 5), ('pnl', AutoOrderedDict([('total', 2869.990622318224), ('average', 573.9981244636448), ('won', AutoOrderedDict([('total', 3468.0109614055773), ('average', 1734.0054807027886), ('max', 1818.0160249577343)])), ('lost', AutoOrderedDict([('total', -598.0203390873535), ('average', -199.34011302911782), ('max', -360.8951124415379)]))])), ('won', 2), ('lost', 3)])), ('short', AutoOrderedDict([('total', 0), ('pnl', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('won', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)])), ('lost', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)]))])), ('won', 0), ('lost', 0)])), ('len', AutoOrderedDict([('total', 223), ('average', 44.6), ('max', 95), ('min', 12), ('won', AutoOrderedDict([('total', 162), ('average', 81.0), ('max', 95), ('min', 67)])), ('lost', AutoOrderedDict([('total', 61), ('average', 20.333333333333332), ('max', 30), ('min', 12)])), ('long', AutoOrderedDict([('total', 223), ('average', 44.6), ('max', 95), ('min', 12), ('won', AutoOrderedDict([('total', 162), ('average', 81.0), ('max', 95), ('min', 67)])), ('lost', AutoOrderedDict([('total', 61), ('average', 20.333333333333332), ('max', 30), ('min', 12)]))])), ('short', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807), ('won', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)])), ('lost', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)]))]))]))])
+
+--- Drawdown ---
+AutoOrderedDict([('len', 14), ('drawdown', 6.1536513950193745), ('moneydown', 976.0911190898732), ('max', AutoOrderedDict([('len', 242), ('drawdown', 11.07402731338637), ('moneydown', 1595.5923870498755)]))])
+
+--- Sharpe Ratio ---
+OrderedDict([('sharperatio', 7.3942042333500435)])
+
+--- Returns ---
+OrderedDict([('rtot', 0.3978287969628039), ('ravg', 0.0005675161154961539), ('rnorm', 0.15374602449598399), ('rnorm100', 15.374602449598399)])
+
+--- Simple Summary ---
+Total Closed Trades: 5
+Open Trades: 1
+Won Trades: 2
+Lost Trades: 3
+Win Rate: 40.00%
+Max Drawdown: 11.07%
+Buy & Hold Return: 303.77%
+Strategy Return: 48.86%
+PS C:\Users\jhinb\backtrader> & c:/Users/jhinb/backtrader/.venv/Scripts/python.exe c:/Users/jhinb/backtrader/test03d_30.py
+[*********************100%***********************]  1 of 1 completed
+Buy & Hold Return: 303.77%
+Starting Portfolio Value: 10000
+BUY | Price: 28550.62 | ATR: 659.05 | ATR_MULT: 5.0 | POC: 26942.23 | VAH: 27658.21 | VAL: 26226.26 | Profile: 2 | SL: 25255.35
+SELL | Price: 41582.97
+BUY | Price: 47200.68 | ATR: 1410.34 | ATR_MULT: 5.0 | POC: 42657.35 | VAH: 45269.22 | VAL: 41351.42 | Profile: 1 | SL: 40149.00
+SELL | Price: 63768.02
+BUY | Price: 66322.37 | ATR: 2725.17 | ATR_MULT: 5.0 | POC: 61672.15 | VAH: 64341.82 | VAL: 61672.15 | Profile: 4 | SL: 52696.54
+SELL | Price: 65940.74
+BUY | Price: 64849.20 | ATR: 2389.80 | ATR_MULT: 5.0 | POC: 57927.05 | VAH: 62978.65 | VAL: 55681.89 | Profile: 1 | SL: 52900.19
+SELL | Price: 60615.42
+BUY | Price: 63004.37 | ATR: 2296.13 | ATR_MULT: 5.0 | POC: 59572.42 | VAH: 60605.56 | VAL: 56472.99 | Profile: 1 | SL: 51523.70
+SELL | Price: 60775.49
+BUY | Price: 67109.50 | ATR: 2120.00 | ATR_MULT: 5.0 | POC: 63772.80 | VAH: 63772.80 | VAL: 60312.68 | Profile: 1 | SL: 56509.51
+FINAL OPEN POSITION | Close Price: 93429.20 | Bars Held: 77
+Final Portfolio Value: 13559.589535223307
+Strategy Return: 35.60%
+
+--- Trade Analysis ---
+AutoOrderedDict([('total', AutoOrderedDict([('total', 6), ('open', 1), ('closed', 5)])), ('streak', AutoOrderedDict([('won', AutoOrderedDict([('current', 0), ('longest', 2)])), ('lost', AutoOrderedDict([('current', 3), ('longest', 3)]))])), ('pnl', AutoOrderedDict([('gross', AutoOrderedDict([('total', 2171.5372883340547), ('average', 434.30745766681093)])), ('net', AutoOrderedDict([('total', 2134.1124582827624), ('average', 426.8224916565525)]))])), ('won', AutoOrderedDict([('total', 2), ('pnl', AutoOrderedDict([('total', 2553.415885718036), ('average', 1276.707942859018), ('max', 1363.5120187183004)]))])), ('lost', AutoOrderedDict([('total', 3), ('pnl', AutoOrderedDict([('total', -419.3034274352736), ('average', -139.7678091450912), ('max', -252.48665238598176)]))])), ('long', AutoOrderedDict([('total', 5), ('pnl', AutoOrderedDict([('total', 2134.1124582827624), ('average', 426.8224916565525), ('won', AutoOrderedDict([('total', 2553.415885718036), ('average', 1276.707942859018), ('max', 1363.5120187183004)])), ('lost', AutoOrderedDict([('total', -419.3034274352736), ('average', -139.7678091450912), ('max', -252.48665238598176)]))])), ('won', 2), ('lost', 3)])), ('short', AutoOrderedDict([('total', 0), ('pnl', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('won', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)])), ('lost', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)]))])), ('won', 0), ('lost', 0)])), ('len', AutoOrderedDict([('total', 223), ('average', 44.6), ('max', 95), ('min', 12), ('won', AutoOrderedDict([('total', 162), ('average', 81.0), ('max', 95), ('min', 67)])), ('lost', AutoOrderedDict([('total', 61), ('average', 20.333333333333332), ('max', 30), ('min', 12)])), ('long', AutoOrderedDict([('total', 223), ('average', 44.6), ('max', 95), ('min', 12), ('won', AutoOrderedDict([('total', 162), ('average', 81.0), ('max', 95), ('min', 67)])), ('lost', AutoOrderedDict([('total', 61), ('average', 20.333333333333332), ('max', 30), ('min', 12)]))])), ('short', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807), ('won', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)])), ('lost', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)]))]))]))])
+
+--- Drawdown ---
+AutoOrderedDict([('len', 14), ('drawdown', 4.843648813645066), ('moneydown', 690.21025866339), ('max', AutoOrderedDict([('len', 242), ('drawdown', 8.599914066312504), ('moneydown', 1137.906032621915)]))])
+
+--- Sharpe Ratio ---
+OrderedDict([('sharperatio', 7.479555089935728)])
+
+--- Returns ---
+OrderedDict([('rtot', 0.30450891879628217), ('ravg', 0.0004343921808791472), ('rnorm', 0.11568306264730992), ('rnorm100', 11.568306264730992)])
+
+--- Simple Summary ---
+Total Closed Trades: 5
+Open Trades: 1
+Won Trades: 2
+Lost Trades: 3
+Win Rate: 40.00%
+Max Drawdown: 8.60%
+Buy & Hold Return: 303.77%
+Strategy Return: 35.60%
+PS C:\Users\jhinb\backtrader> 

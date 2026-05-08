@@ -69,3 +69,14 @@ samples2/
 datas/*.py
 
 .idea/
+
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+reports/*.png
+reports/*.html
+
+.DS_Store
+Thumbs.db
